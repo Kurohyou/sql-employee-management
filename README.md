@@ -50,11 +50,7 @@ An employee tracker powered by MySQL
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-<p align="center">
-
 [![Product Name Screen Shot][product-screenshot]](https://watch.screencastify.com/v/0TQd0gWTst9bdpErXPJA)
-
-</p>
 
 This project is a test bed for an employee tracker system.
 <p align="right">(<a href="#top">back to top</a>)</p>
