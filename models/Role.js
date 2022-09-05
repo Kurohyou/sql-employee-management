@@ -8,7 +8,7 @@ export const update = (updateObj,searchObj) =>{
   return db.update('role',['title','salary','department_id'],updateObj,searchObj)
 };
 
-export const create = (setObj) => db.create('department',['title','salary','department_id'],setObj);
+export const create = (setObj) => db.create('role',['title','salary','department_id'],setObj);
 
 export const remove = (setObj,searchObj) =>
   db.remove('role',searchObj.id);
