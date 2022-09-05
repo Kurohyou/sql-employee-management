@@ -38,7 +38,7 @@ const addQueries = (employeeChoices,roleChoices) => {
       type:'list',
       name:'table.manager_id',
       message:"Who is the employee's manager?",
-      choices:(answers)=>[{first_name:'No',last_name:'Manager',id:null},...employeeChoices]
+      choices:(answers)=>[{name:'No Manager',id:null},...employeeChoices]
         // Don't allow the employee to be their own manager
         .filter(o => o.value !== answers.id)
     }
